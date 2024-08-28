@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 10.0.2"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "env": {
+        "API_MAPS_KEY": "AIzaSyDfIx_Qxb720yx2qbU4-DXu_Cc4ZSqmovc",
+        "API_MAPS_KEY2": "AIzaSyB89u6PHtghA9juQAJazzuk7Y1wZMugkc4"
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}

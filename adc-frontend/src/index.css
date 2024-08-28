@@ -1,0 +1,48 @@
+:root {
+  --federal-blue: #150f4c;
+  --hover-federal-blue: #1a1a6e;
+  --baby-powder: #fffef6;
+  --veronica: #8d4bf1;
+  --hover-veronica: #985df1;
+  --rich-black: #011627;
+  --lilac: #c69ece;
+  --grey: #969ca2;
+  --green: #007e18;
+  --teal: #35a077;
+
+  /*background-color: var(--baby-powder);*/
+}
+
+.button-hover-effect:hover {
+  background-color: #011627;
+  border-color: #011627;
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* Apply the animation to your spinner or loading element */
+.spinner {
+  animation: bounce 2s infinite;
+}
+
+/* 
+body {
+  background: rgb(235, 248, 244);
+} */

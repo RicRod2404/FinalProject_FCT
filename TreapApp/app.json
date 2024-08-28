@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "TreapApp",
+    "slug": "TreapApp",
+    "version": "1.0.0",
+    "scheme": "treapapp",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDfIx_Qxb720yx2qbU4-DXu_Cc4ZSqmovc"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.treap.TreapApp",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/images/logo.png"
+    },
+    "plugins": ["expo-router"],
+    "extra": {
+      "API_MAPS_KEY": "AIzaSyDfIx_Qxb720yx2qbU4-DXu_Cc4ZSqmovc",
+      "API_MAPS_KEY2": "AIzaSyB89u6PHtghA9juQAJazzuk7Y1wZMugkc4",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "21fcb081-71ad-4a2f-a737-9717dba5288a"
+      }
+    },
+    "owner": "pedrofigo"
+  }
+}

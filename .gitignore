@@ -1,0 +1,8 @@
+/adc-frontend/node_modules
+/target/ADC-2024-0.0.1-SNAPSHOT
+/target
+/target/
+target/
+/TreapApp/node_modules
+node_modules
+*.class

@@ -1,0 +1,18 @@
+:root {
+  --background: #050224;
+  --federal-blue: #150f4c;
+  --hover-federal-blue: #1a1a6e;
+  --baby-powder: #fffef6;
+  --veronica: #8d4bf1;
+  --hover-veronica: #985df1;
+  --rich-black: #011627;
+  --lilac: #c69ece;
+  --grey: #969ca2;
+  --darkgrey: #3f3f3f;
+  --lightgrey: #e0e0e0;
+  --green: #007e18;
+  --teal: #35a076;
+  --orange: #ff3d00;
+
+  /*background-color: var(--baby-powder);*/
+}

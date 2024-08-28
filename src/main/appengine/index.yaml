@@ -1,0 +1,22 @@
+indexes:
+
+- kind: rankings
+  properties:
+    - name: isUser
+    - name: year
+    - name: leafPoints
+      direction: desc
+
+- kind: rankings
+  properties:
+    - name: isUser
+    - name: month
+    - name: year
+    - name: leafPoints
+      direction: desc
+
+- kind: messages
+  properties:
+    - name: chatId
+    - name: timestamp
+      direction: desc

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "31662980033",
+    "project_id": "treapappfb",
+    "storage_bucket": "treapappfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31662980033:android:c31e4484056ece7f840d40",
+        "android_client_info": {
+          "package_name": "com.treap.TreapApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Q4dmCWMM03lWZ2xTtDv6ZL5WnZfF6Cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
